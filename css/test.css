@@ -1,0 +1,27 @@
+* { box-sizing: border-box }
+
+body {
+	background-image: -moz-element(#test-element);
+	background-image: -webkit-canvas(mycanvas);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 100vmin 100vmin;
+	margin: 0;
+}
+
+#test-element, #my-canvas {
+	margin: 0;
+	padding: 0;
+	width: 100px;
+	height: 100px;
+}
+
+#test-element {
+	line-height: 100px;
+	text-align: center;
+	border: solid 1px red;
+	background: black;
+	font-family: "Helvetica", "Arial", sans-serif;
+	text-shadow: 0.5px 0.5px 0 white;
+	
+}
